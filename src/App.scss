@@ -1,0 +1,15 @@
+@use './shared/reset';
+@use './shared/colors';
+@use './shared/base';
+@use './shared/header';
+
+.App {
+  height: 100vh;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
